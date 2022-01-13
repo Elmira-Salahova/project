@@ -1,0 +1,56 @@
+
+.container {
+    max-width: 100%;
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.header {
+	width: 1440px;
+	background: #F9F6F5;
+}
+
+.header__logo {
+	display: flex;
+}
+
+.header__title {
+	width: 128px;
+	height: 30px;
+	padding-top: 40px;
+	left: 85px;
+	font-family: Red Hat Display;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 30px;
+	color: #222222;
+}
+
+.header__links {
+	padding-left: 304px;
+	padding-top: 47px;
+}
+
+.header__link {
+	margin-left: 25px;
+	font-family: Red Hat Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #222222;
+}
+
+.icon {
+	padding-left: 250px;
+	padding-top: 44.2px;
+}
+
+.icon__cart {
+	padding-left: 24px;
+}
+
+.icon__menu {
+	padding-left: 24px;
+}

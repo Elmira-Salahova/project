@@ -1,0 +1,33 @@
+body {
+	font-family: Roboto;
+	
+}
+
+.container {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;  
+}
+
+.nav {
+	width: 1366px;
+}
+
+.logo {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.logo-1 {
+	width: 45.58px;
+	height: 48px;
+	padding-top: 34px;
+}
+
+.logo-2 {
+	width: 33.46px;
+	height: 38px;
+	padding-top: 39px;
+}
+

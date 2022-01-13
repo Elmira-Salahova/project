@@ -1,0 +1,152 @@
+.footer {
+    width: 1440px;
+    height: 545px;
+    background: #FAFAFA;
+}
+
+.footer__subscribe {
+    display: flex;
+    padding-top: 108px;
+}
+
+.footer__title {
+    padding-left: 36px;
+    padding-right: 296px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    color: #222222;
+}
+
+.footer__input {
+    padding-left: 18px;
+    background: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+.footer__button {
+    background: #402F2C;
+    border: none;
+    color: #FFFFFF;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer__line-img {
+    padding-top: 59px;
+}
+
+.footer__info {
+    display: flex;
+}
+
+.footer__content {
+    width: 326px;
+    height: 216px;
+    padding-left: 105px;
+}
+
+.footer__text {
+    padding-top: 59px;
+    font-family: Red Hat Display;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    color: #222222;
+}
+
+.footer__subtitle {
+    padding-top: 38px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #555555;
+}
+
+.footer__list {
+    width: 96px;
+    height: 163px;
+    padding-top: 84px;
+    padding-left: 212px;
+}
+
+.footer__link {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;   
+    color: #222222;
+}
+
+ul {
+    padding-left: 0px;
+    padding-top: 23px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+}
+
+li {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #222222;
+    list-style-type: none;   
+}
+
+.footer__contacts {
+    padding-left: 213px;
+    padding-top: 84px;
+}
+
+.footer__contact {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+}
+
+.footer__email {
+    padding-top: 39px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+}
+
+.footer__number {
+    padding-top: 20px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+}
+
+.footer__network {
+    padding-top: 20px;
+}
+
+.footer__twitter, .footer__instagram {
+    padding-left: 27px;
+}

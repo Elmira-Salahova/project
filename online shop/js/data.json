@@ -1,0 +1,54 @@
+ [ 
+ {
+
+    "price": 10.00,
+    "imgCatalog": "img/catalog/image-1.png",
+    "id": 1,
+    "titleName": "Мужская куртка",
+    "SubName": "Куртка утепленная выполнена из стеганого текстиля с искусственным наполнителем",
+    "inCart": 0
+},
+
+{
+    "price": 20.00,
+    "imgCatalog": "img/catalog/image-2.png",
+    "id": 2,
+    "titleName": "Комбинезон",
+    "SubName": "Широкий комбинезон с вышивкой и поясом",
+    "inCart": 0
+},
+
+{
+    "price": 30.00,
+    "imgCatalog": "img/catalog/image-3.png",
+    "id": 3,
+    "titleName": "Толстовка",
+    "SubName": "Худи графический на термальной подкладке",
+    "inCart": 0
+},
+{
+    "price": 40.00,
+    "imgCatalog": "img/catalog/image-4.png",
+    "id": 4,
+    "titleName": "Брюки",
+    "SubName": "Одноцветные повседневные мужские брюки",
+    "inCart": 0
+},
+{
+    "price": 50.00,
+    "imgCatalog": "img/catalog/image-5.png",
+    "id": 5,
+    "titleName": "Пиджак",
+    "SubName": "Однобортный пиджак с заплатой с лацканами",
+    "inCart": 0
+},
+{
+    "price": 60.00,
+    "imgCatalog": "img/catalog/image-6.png",
+    "id": 6,
+    "titleName": "Блузка",
+    "SubName": "Блуза в полоску на пуговицах",
+    "inCart": 0
+}
+  ]
+

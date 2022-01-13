@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media_tab-cart.css">
+	<link rel="stylesheet" href="css/media_phone-cart.css">
+
+
+	<title>Корзина</title>
+</head>
+<body>
+	<header class="header">
+			<div class="container">
+				<div class="header__logo">
+					<div class="header__left">
+					 <img class="logo__img" src="img/logo.png" alt="Логотип">
+					 <a href="#"><img class="header__search" src="img/search.png" alt="Поиск"></a>
+					</div>
+
+					<div class="nav__right">
+					 <a href="#"><img class="nav__link" src="img/menu.png" alt="Меню"></a>
+					 <a href="#"><img class="nav__link nav__link-area" src="img/area.png" alt="Кабинет"></a>
+					 <a href="cart.html">
+						<img class="nav__link nav__link-basket" src="img/basket.png" alt="Корзина">
+						<span class="nav__basket-count">0</span>
+					</a>
+					 </div>
+
+				</div> <!-- /header__logo -->
+			</div><!-- /container -->
+	</header>
+
+	<section class="nav">
+ 	<div class="container">
+ 	   	<div class="block">
+	 	   	<div class="block__title">
+	 	   		<span>SHOPPING CART</span>	 
+	 	   	</div><!-- /block__nav-text --> 
+ 	   	</div><!-- /block -->
+ 	</div><!-- /container -->
+</section>
+
+<section class="cart">
+	<div class="container">
+		<div class="cart__block">
+			<div class="cart__products">
+				
+			</div>
+
+			<div class="cart__form">
+				<form class="form__adress">
+                   
+					<div class="form__title">
+                        SHIPPING ADRESS
+                    </div>
+
+                    <div class="form__input" id="form">
+							
+						<input class="form__input-text input-control" id="check" type="text" name="ФИО" placeholder="ФИО">
+						
+
+						<input class="form__input-text" id="check" type="text" name="Страна" placeholder="Страна">
+					
+
+						<input class="form__input-text" id="check" type="text" name="Город" placeholder="Город">
+					
+						
+						<input class="form__input-text" id="check" type="text" name="Индекс" placeholder="Индекс">
+					</div>
+
+                    <div class="form__button">
+                        <a href="#">
+                            <button class="form__send" type="submit">REGISTRATION</button>
+                        </a>
+                    </div> 
+                </form>	
+			</div>
+
+			<div class="cart__shoppning">
+				<div class="cart__button">
+					<a href="#">
+						<button class="cart__shop-button">CLEAR SHOPPING CART</button>
+					</a>
+				</div>
+
+				<div class="cart__button">
+					<a href="catalog.html">
+						<button class="cart__shop-button cart__cont-button" id="clean-cart-btn">CONTINUE SHOPPING</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section> 
+
+
+<section class="subscribe">
+ 		<div class="subscribe-block">
+ 			<div class="subscribe-block__bcg">
+ 				<img class="subscribe-block__bcg-img" src="img/sub/bcg.png">
+ 			</div>
+
+
+ 			<div class="subscribe-block__quote">
+ 				<div class="subscribe-block__img">
+					<img src="img/sub/icon.png" alt="Картина">							
+ 				</div>
+
+ 				<div class="subscribe-block__text">
+					<q>Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum</q>							
+ 				</div>
+ 			</div><!-- subscribe-block__quote--> 
+
+ 			<div class="subscribe-block__sub">
+ 				<div class="subscribe-block__title">
+					<span class="font-weight__sub">SUBSCRIBE </span><br>
+				FOR OUR NEWLETTER AND PROMOTION				
+ 				</div> <!-- subscribe-block__title--> 
+
+ 				<div class="subscribe-block__send">
+					<input class="subscribe-block__input" type="email" placeholder="Enter Your Email">
+					<a href="#"><button class="subscribe-block__btn" type="submit">
+						Subscribe
+					</button></a>
+                </div> <!-- subscribe-block__send-->
+ 			</div><!-- subscribe-block__sub--> 
+
+ 		</div><!-- subscribe-block--> 		
+ 	
+</section><!-- subscribe -->
+
+<footer>
+	<div class="footer">
+		<div class="container">
+			   <div class="footer-block">
+				   <div class="footer__text">(c) 2021  Brand  All Rights Reserved.</div>
+				   <div class="footer__img">
+						<img class="img__anim" src="img/footer/facebook.png" alt="facebook">		
+						<img class="img__anim" src="img/footer/inst.png" alt="instagram">	
+						<img class="img__anim" src="img/footer/p.png" alt="printerest">	
+						<img class="img__anim" src="img/footer/twit.png" alt="twitter">						
+				</div><!-- /footer__img -->
+			</div><!-- /footer-block -->
+		</div><!-- /container -->
+	</div><!-- /footer -->
+</footer>
+</body>
+	<script src="js/catalog.js" defer> </script>
+
+	<script src="js/form.js" defer> </script>
+</html>

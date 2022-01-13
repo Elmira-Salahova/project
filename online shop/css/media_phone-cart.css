@@ -1,0 +1,221 @@
+@media screen and (max-width: 375px) {
+.container {
+    max-width: 375px;
+    width: 359px;
+} 
+ .header {
+	width: 375px;
+	height: 74px;
+}
+
+.nav__link {
+	margin-left: 16px;
+}
+
+.nav__link-area, .nav__link-basket, .nav__basket-count {
+	display: none;
+}
+
+								/*     Для документа nav.sass     */
+
+
+.nav {
+	width: 375px;
+}
+
+.block {
+	padding-top: 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.block__nav {
+	padding-top: 32px;
+	padding-left: 0px;
+}
+
+
+								/*     Для документа cart.sass      */
+.cart {
+    width: 375px;
+}
+                            
+.cart__block {
+    width: 359px;
+    margin: 39px 0px;
+}
+
+.cart__product {
+    width: 358px;
+    height: 188px;
+    box-shadow: 8px 8px 21px rgba(0, 0, 0, 0.13);
+}
+  
+.product__mrg {
+    margin-top: 32px;
+}
+
+.cart__img {
+    width: 143.86px;
+    height: 188px;
+}
+
+.cart__product-text {
+    padding: 13.57px 31.3px 37.67px 17.02px;
+}
+
+.cart__product-title {
+    padding-right: 7px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.cart__product-price {
+    padding-top: 25.85px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.cart__product-color, .cart__product-size, .cart__product-quantity {
+    padding-top: 4px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.cart__shoppning  {
+    order: 1;
+}
+.cart__button {
+    margin-top: 30px;
+    margin-right: 0px;
+}
+
+.cart__shop-button {
+    width: 174.22px;
+    height: 32.34px;
+    padding: 8.67px 17.5px 9.39px 17.61px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 0px;
+}
+
+.cart__cont-button {
+    margin-left: 9.78px;
+    margin-right: 0px;
+}
+
+.cart__product-input {
+    width: 23.71px;
+    height: 14.82px;
+    margin-left: 15.22px;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.cart__cross-img {
+    padding-top: 17.2px;
+    padding-right: 12.08px;
+}
+.cross__img {
+    width: 9.88px;
+    height: 11.06px;
+}
+.form__adress {
+    padding-right: 15px;
+}
+
+.cart__form {
+    order: 2;
+    padding-left: 0px;
+    padding-top: 48.3px;
+    display: flex;
+    flex-direction: column;
+}
+.cart__total {
+    margin-top: 39px;
+}
+
+ 
+									/*     Для документа sub.css      */
+
+.subscribe {
+	height: 550px;
+	width: 375px;
+}
+.subscribe-block__bcg-img {
+	height: 550px;
+	width: 375px;
+}
+
+.subscribe-block__text {
+	width: 343px;
+	height: 73px;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.subscribe-block__quote {
+	padding-top: 29.27px;
+	padding-left: 20px;
+}
+
+.subscribe-block__title {
+	width: 271px;
+	font-size: 14px;
+	line-height: 21.45px;
+
+}
+
+.subscribe-block__sub {
+	width: 375px;
+	padding-top: 317px;
+	padding-left: 50px;
+}
+
+.subscribe-block__send {
+	left: 0px;
+}
+
+.subscribe-block__input {	
+	width: 226px;
+	height: 46.94px;
+	padding-left: 21.07px;
+}
+
+.subscribe-block__btn {
+	width: 95.79px;
+	height: 46.94px;
+	left: 202px;
+	line-height: 16.8px;
+}
+
+
+
+									/*     Для документа footer.css      */
+
+.footer {
+	width: 375px;
+	height: 143px;
+}
+
+.footer-block {
+	padding-top:43px; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer__text {
+	padding-top: 40px;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FBFBFB;
+	order: 2;
+}
+
+.footer__img {
+	padding-left: 0px;
+	order: 1;
+}								
+}

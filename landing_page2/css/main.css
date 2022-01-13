@@ -1,0 +1,64 @@
+.main {
+	width: 1440px;
+    height: 665px;
+	background: #F9F6F5;
+    position: relative;
+}
+
+.main__title {
+    width: 621px;
+    height: 140px;
+    padding-top: 96px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.main__subtitle {
+    width: 516px;
+    height: 96px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #555555;
+}
+
+.main__input {
+    width: 326px;
+    height: 48px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+}
+
+.main__btn {
+    width: 148px;
+    height: 56px;
+    background: #402F2C;
+    color: #FFFFFF;
+    border: none;
+}
+
+.main__button {
+    padding-top: 60px;
+}
+
+.main__img {
+    position: absolute;
+    width: 796px;
+    height: 609px;
+    top: 46px;
+    left: 644px;
+}
+
+.sponsors {
+    width: 1440px;
+    padding-top: 131px;
+}

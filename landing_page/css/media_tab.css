@@ -1,0 +1,349 @@
+
+@media (max-width: 768px) {
+.container {
+    max-width: 702px;
+  }
+
+.nav {
+	width: 768px;
+}
+.logo-1 {
+	padding-top: 28px;
+}
+
+.logo-2 {
+	padding-top: 33px;
+}
+
+.information__block {
+    width: 768px;
+    height: 608px;
+}
+
+.information__main{
+	width: 600px;
+	padding-left: 32px;
+	padding-top: 60px;
+}
+
+.information__title  {
+	padding-left: 32px;
+	padding-top: 32px;
+}
+
+.information__btn {
+	width: 220px;
+	margin-top: 72px;
+	margin-left: 32px;	
+}
+
+.image_ilustration {
+	width: 370.2px;
+	height: 294.93px;
+	top: 276.27px;
+	left: 342.84px;
+}
+
+.items {
+	display: block; 	
+}
+
+.description__block {
+	width: 768px;
+    height: 1772px;
+}
+
+.description__text {
+	width: 704px;
+	height: 90px;
+}
+
+.items-1 {
+	width: 334.97px;
+	height: 448px;
+	margin-left: 164px;
+	padding-top: 16px;
+	margin-bottom: 32px;
+}
+
+.items__img-1 {
+	width: 160.43px;
+	height: 112.64px;
+	padding-left: 65.23px;
+	padding-top: 40.96px;
+
+}
+
+.items__title {
+	width: 284.06px;
+	height: 51.32px;
+	padding-left: 29.86px;
+	padding-top: 47.94px;
+}
+
+
+.items__subtitle {
+	width: 250.35px;
+	height: 87.89px;
+	padding-left: 29.86px;
+	padding-top: 13.06px;
+	padding-bottom: 25px;
+}
+
+.items__link {
+	width: 91.25px;
+	height: 25px;
+	padding-left: 28.97px;
+	padding-top: 35px; 
+}
+
+.items__arrow {
+	width: 14.1px;
+	height: 13.65px;
+	padding-left: 3.53px;
+	padding-top: 25px;
+}
+.items-2 {
+	width: 336.35px;
+	height: 451px;
+	margin-left: 164px;
+	padding-top: 16px;
+	margin-bottom: 32px;
+	
+}
+.items__img-2 {
+	width: 117.76px;
+	height: 113.49px;
+	padding-left: 109.23px;
+	padding-top: 40.97px;
+}
+
+.items-3 {
+	width: 336.06px;
+	height: 457px;
+	margin-left: 164px;
+	padding-top: 16px;
+}
+
+.items__img-3 {
+	width: 137.96px;
+	height: 114.06px;
+	padding-left: 88.44px;
+	padding-top: 42.65px;
+}
+
+.project__block {
+	width: 768px;
+	height: 934px;
+}
+
+.project__title {
+	width: 704px;
+}
+
+.project__subtitle {
+	width: 520px;
+	height: 78px;
+	padding-left: 72px;
+}
+
+.project__image-1 {
+	width: 704.62px;
+	height: 296.68px;
+}
+
+.project__img-1 {
+	width: 704.62px;
+}
+
+.project__img-title-1 {
+	left: 286px;
+}
+
+.project__img-2 {
+	width: 336px;
+	padding-top: 7px;
+}
+
+.project__img-title-2 {
+	width: 201.57px;
+	height: 27.9px;
+	left: 19.41px;
+	top: 643px;
+}
+
+.project__img-3 {
+	width: 336px;
+	padding-top: 7px;
+}
+
+.project__image-3 {
+	width: 336px;
+	padding-top: 32px;
+	padding-left: 30px;
+}
+
+.project__img-title-3 {
+	width: 282.32px;
+	height: 27.91px;
+	left: 395.29px;
+	top: 643px;
+}
+
+.contact__block {
+	padding-top: 1px;
+	width: 768px;
+	height: 2290px;
+}
+
+.contact__img {
+	width: 768px;
+	height: 250px;
+	margin-left: 0px;
+	padding-top: 10px;
+}
+
+.contact__text-title {
+	width: 520px;
+	left: 137px;
+	top: 3425px;
+}
+
+.contact__text-subtitle{
+	width: 520px;
+	left: 102px;
+	top: 3503px;
+}
+
+.info {
+	display: block;
+	width: 720px;
+	padding: 0px;
+}
+.info__text {
+	padding-left: 220px;
+}
+
+.form {
+	width: 520px;
+	height: 780px;
+	margin-left: 109px;
+	margin-top: 64px;
+}
+
+.form__text {
+	width: 178.15px;
+	height: 29.25px;
+	padding-left: 53.93px;
+	padding-top: 54.6px;
+}
+
+.form__name {
+	width: 190px;
+	height: 29px;
+	padding-left: 54px;
+	padding-top: 50px;
+}
+
+.form__input-name {
+	width: 412.15px;
+	height: 70.2px;
+	padding-left: 53.93px;
+}
+
+.form__email {
+	width: 190px;
+	height: 29px;
+	padding-left: 54px;
+	padding-top: 95px;
+}
+
+.form__input-email {
+	width: 412.5px;
+	height: 70.2px;
+	padding-left: 53.93px;
+}
+
+.form__message {
+	width: 190px;
+	height: 29px;
+	padding-left: 54px;
+	padding-top: 95px;
+}
+
+.form__input-message {
+	width: 412.15px;
+	height: 140.4px;
+	padding-left: 53.93px;
+	padding-bottom: 70.2px;
+}
+
+
+.text__button {
+	width: 412.15px;
+	height: 70.2px;
+	margin-left: 53.93px;
+	margin-top: 177.2px;
+	border: none;
+	
+}
+
+.map {
+	margin-top: 32px;
+    height: 349px;
+    width: 80%;
+	margin-left: 82px;
+}
+
+
+.footer {
+	width: 768px;
+	height: 644px;
+}
+
+.footer__title {
+	width: 336.82px;
+	height: 82px;
+	padding-left: 124px;
+	padding-top: 47px;
+
+}
+
+.footer__subtitle {
+	width: 336.96px;
+	height: 96px;
+	padding-left: 124px;
+}
+
+.footer__btn {
+	width: 133.04px;
+	height: 31.48px;
+	left: 511px;
+	top: 161px;
+}
+
+.footer__line {
+	width: 732px;
+	margin-top: 63px; 
+}
+
+.contacts {
+	display: block;
+	margin-top: 53px;
+	margin-left: 110px;
+}
+
+li {
+	width: 455px;
+	height: 21px;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.footer__small {
+	width: 210px;
+	padding-left: 125px;
+	padding-top: 32px; 
+}
+
+}

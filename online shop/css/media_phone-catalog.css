@@ -1,0 +1,200 @@
+@media screen and (max-width: 375px) {
+	.container {
+    max-width: 375px;
+    width: 359px;
+  } 
+
+.header {
+	width: 375px;
+	height: 74px;
+}
+
+.nav__link {
+	margin-left: 16px;
+}
+
+.nav__link-area, .nav__link-basket, .nav__basket-count {
+	display: none;
+}
+
+
+  									/*     Для документа nav.css      */
+
+.nav {
+	width: 375px;
+}
+
+.block {
+	padding-top: 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.block__nav {
+	padding-top: 32px;
+	padding-left: 0px;
+}
+									/*     Для документа catalog.css      */
+
+.catalog {
+	margin-top: 28px;
+	width: 375px;
+} 
+
+.catalog__filter {
+	margin-bottom: 16px; 
+}
+.catalog__filter-text {
+	display: none;
+}
+
+.catalog__filter-img {
+	width: 37.5px;
+	height: 25px;
+	margin-left: 8px;
+}
+
+.descr {
+	width: 358px;
+	margin-top: 16px;
+	margin-left: 8px; 
+}
+
+.catalog-descr-3 {
+	display: none;
+} 
+.catalog-block__btn-text {
+	display: none;
+}
+
+
+
+									/*     Для документа info.css      */
+
+.information {
+	height: 610px;
+	width: 375px;
+}
+
+.information-block {
+	padding-top: 48px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.information-block__img-1 {
+	padding-left: 166.86px;
+	padding-right: 164.67px;
+}
+ 
+.information-block__title-1 {
+	padding-left: 127.54px;
+}
+
+.information-block__subtitle {
+	padding:14.65px 13px 46.37px 14.18px;
+}
+
+.information-block__img-2 {
+	padding-left: 168.77px;
+	padding-right: 167.6px;
+}
+ 
+.information-block__title-2 {
+	padding-left: 110.24px;
+}
+
+.information-block__img-3 {
+	padding-left: 164.92px;
+	padding-right: 164.65px;
+}
+ 
+.information-block__title-3 {
+	padding-left: 107.69px;
+}
+
+									/*     Для документа sub.css      */
+
+.subscribe {
+	height: 550px;
+	width: 375px;
+}
+.subscribe-block__bcg-img {
+	height: 550px;
+	width: 375px;
+}
+
+.subscribe-block__text {
+	width: 343px;
+	height: 73px;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.subscribe-block__quote {
+	padding-top: 29.27px;
+	padding-left: 20px;
+}
+
+.subscribe-block__title {
+	width: 271px;
+	font-size: 14px;
+	line-height: 21.45px;
+
+}
+
+.subscribe-block__sub {
+	width: 375px;
+	padding-top: 317px;
+	padding-left: 50px;
+}
+
+.subscribe-block__send {
+	left: 0px;
+}
+
+.subscribe-block__input {	
+	width: 226px;
+	height: 46.94px;
+	padding-left: 21.07px;
+}
+
+.subscribe-block__btn {
+	width: 95.79px;
+	height: 46.94px;
+	left: 202px;
+	line-height: 16.8px;
+}
+
+
+
+									/*     Для документа footer.css      */
+
+.footer {
+	width: 375px;
+	height: 143px;
+}
+
+.footer-block {
+	padding-top:43px; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer__text {
+	padding-top: 40px;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FBFBFB;
+	order: 2;
+}
+
+.footer__img {
+	padding-left: 0px;
+	order: 1;
+}								
+
+}

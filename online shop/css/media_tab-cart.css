@@ -1,0 +1,115 @@
+@media screen and (max-width: 768px) {
+	.container {
+    max-width: 737px;
+  } 
+  .header {
+	width: 768px;
+	height: 74px;
+}
+.nav__link {
+	margin-left: 25px;
+}
+.nav__link:last child {
+	margin-left: 42px;
+}
+								/*     Для документа nav.sass     */
+
+.nav {
+	width: 768px;
+}
+
+.block {
+	padding-top: 59px;
+}
+
+								/*     Для документа cart.sass      */
+.cart {
+    width: 768px;
+}
+                            
+.cart__block {
+    width: 737px;
+    margin: 59px 0px;
+}
+
+.cart__product {
+    width: 734px;
+}
+
+.cart__product-title {
+    padding-right: 137px;
+}
+.cart__shoppning  {
+    order: 1;
+}
+.cart__button {
+    margin-top: 61px;
+    margin-right: 0px;
+}
+
+.cart__shop-button {
+    width: 237px;
+    height: 49px;
+    line-height: 16.8px;
+    margin-top: 0px;
+    margin-left: 114px;
+}
+
+.cart__cont-button {
+    margin-left: 49px;
+    margin-right: 112px;
+}
+
+.form__adress {
+    padding-right: 15px;
+}
+
+.cart__form {
+    order: 2;
+    padding-left: 0px;
+    padding-top: 64.5px;
+    display: flex;
+    flex-direction: row;
+}
+.cart__total {
+    margin-top: 39px;
+}
+
+    							/*     Для документа sub.css      */
+
+.subscribe {
+	height: 614px;
+	width: 768px;
+}
+.subscribe-block__bcg-img {
+	height: 614px;
+	width: 768px;
+}
+
+.subscribe-block__quote {
+	padding-top: 64px;
+	padding-left: 204px;
+}
+
+.subscribe-block__sub {
+	width: 375px;
+	padding-top: 337px;
+	padding-left: 105px;
+}
+
+
+
+									/*     Для документа footer.css      */
+
+.footer {
+	width: 768px;
+}
+
+.footer-block {
+	padding-top:24px; 
+}
+
+.footer__img {
+	padding-left: 305px;
+}
+}
