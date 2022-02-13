@@ -1,85 +1,41 @@
-.categories-block 
-	width: 1600px;
-	height: 470px;
-
 .category 
-	height: 470px;
-	margin-top: 103px;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	
-.category-item 
-	width: 360px;
-	height: 260px;
-	margin-left: 30px;
-	margin-bottom: 30px;
+	display: flex
+	margin-top: 48px
 
-	&:last-child 
-		margin-left: 0px;	
-	
-	&:first-child 
-		margin-left: 0px;
+.category-item:not(:first-child)
+	margin-left: 30px
 
+.category-item, .category-accesories
+	position: relative
 
-.category-women__img, .category-men__img, .category-kids__img   
-	width: 360px;
-	height: 260px;
-
-.ps 
+.category__text
 	position: absolute;
-
-.category-women__text 
-	position: absolute;
-	padding: 105px 103px;
-	font-weight: 400;
-	font-family: Lato;
+	top: 105px
+	left: 125px
 	font-size: 16px;
-	line-height: 19px;
 	text-align: center;
 	color: #FFFFFF;
 
 .category-men__text 
-	position: absolute;
-	padding: 105px 125px;
-	font-weight: 400;
-	font-family: Lato;
-	font-size: 16px;
-	line-height: 19.2px;
-	text-align: center;
-	color: #FFFFFF;
+	left: 135px	
 
 .category-kids__text 
-	position: absolute;
-	padding: 105px 122px;
-	font-weight: 400;
-	font-family: Lato;
-	font-size: 16px;
-	line-height: 19px;
-	text-align: center;
-	color: #FFFFFF;
-
-.category-accesories 
-	width: 1140px;
-	height: 180px;
-	margin-bottom: 57px;
-
-.category-accesories__img 
-	width: 1140px;
-	height: 180px;
+	left: 115px
+	
+.category-accesories__image
+	margin-top: 30px
 
 .category-accesories__text 
-	position: absolute;
-	padding: 65px 490px;
-	font-family: Lato;
-	font-size: 16px;
-	line-height: 19px;
-	text-align: center;
-	color: #FFFFFF;
+	left: 478px
 
-.font-color__categories 
-	color: #F26376;
-	font-size: 18px;
-	line-height: 21.6px;
-	font-weight: 900;
+.category-accesories__image img 
+	width: 100%
 
+.category-women img 
+	width: 100%
+
+.category-men img 
+	width: 100%
+
+.category-kids img 
+	width: 100%

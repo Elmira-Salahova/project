@@ -2,75 +2,75 @@
 <html>
 	<head>
 	    <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
 	    <title>Салон красоты</title>
-		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
-	    <link rel="stylesheet" type="text/css" href="css/header.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link rel="stylesheet" type="text/css" href="css/products.css">
-		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/modal.css">
+		
+		<link rel="stylesheet" type="text/css" href="css/media.css">
+		<script defer src="scripts/script.js"></script>
 	</head>
 
 	<body>
-		<header class="header">
-			<div class="container">
-				<div class="header__logo">
-					<div class="header__title">
-						Dudeshape
-					</div> <!-- /header__title -->
-					
-					<nav class="header__links">
-						<a class="header__link" title="Home" href="URL">Home</a>
-						<a class="header__link" title="Products" href="URL">Products</a>
-						<a class="header__link" title="About Us" href="URL">About Us</a>
-						<a class="header__link" title="Contact Us" href="URL">Contact Us</a>
-					</nav> <!-- link -->
-
-					<div class="icon">
-						<img class="icon__account" src="img/icon-1.png">
-						<img class="icon__cart" src="img/icon-2.png">
-						<img class="icon__menu" src="img/icon-3.png">
-					</div> <!-- icon -->
-				</div>
-			</div>
-		</header> <!-- /header -->
-
-		<main class="main">
-			<div class="container">								
-				<div class="main__title">
-					Get Your Best Cosmetic Products Here
-				</div>
-
-				<div class="main__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-					Lorem Ipsum has been the industry's standard dummy
-				</div>
-					
-				<div>
-					<input class="main__input" type="text" placeholder="Search...">
-				</div>
+		<div class="wrapper">
+			<header class="header">
+				<div class="container">
+					<div class="header__logo">
+						<div class="header__title">
+							Dudeshape
+						</div> <!-- /header__title -->
 						
-				<div class="main__button">
-					<button class="main__btn" alt="Кнопка заказа">Shope now</button>
+						<nav class="header__menu">
+							<ul class="menu__list">
+								<li class="menu__item"><a class="menu__link" title="About Us" href="#present">About Us</a></li>
+								<li class="menu__item"><a class="menu__link" title="Product" href="#product">Product</a></li>
+								<li class="menu__item"><a class="menu__link" title="Feedback" href="#feedback">Feedback</a></li>
+								<li class="menu__item"><a class="menu__link" title="Contact Us" href="#footer">Contact Us</a></li>
+							</ul>
+						</nav> <!-- link -->
+					</div>
 				</div>
+			</header> <!-- /header -->
 
-				<div class="main__image">
-					<img class="main__img" src="img/image_main.png">
-				</div><!-- main__image -->
-	 		</div><!-- container-->
-	 	</main>
-	
-		<section class="sponsors">
-			<div class="container">
-				<div class="sponsors__image">
-					<img class="sponsors__img-" src="img/sponsors.png">
-				</div><!-- sponsors__image -->
-			</div>
-		</section>
+			<main class="main">
+				<section class="present" id="present">
+					<div class="container"> 	
+						<div class="present__block">							
+							<div class="present__text">
+								<h1 class="present__title">
+									Get Your Best Cosmetic Products Here
+								</h1>
+
+								<div class="present__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+									Lorem Ipsum has been the industry's standard dummy
+								</div>
+							
+								<div class="present__button">
+									<button class="present__btn" alt="Кнопка заказа">Shope now</button>
+								</div>
+							</div>
+							
+							<div class="present__image">
+								<img src="img/image_main.png">
+							</div><!-- present__image -->
+						</div>
+					</div><!-- container-->
+				</section>
 		
-		<section class="products">
-			<div class="container">
-				<div class="products__block">
-					<div class="products__text">
-						<div class="products__info">
+			<section class="sponsors">
+				<div class="container">
+					<div class="sponsors__image">
+						<img class="sponsors__img-" src="img/sponsors.png">
+					</div><!-- sponsors__image -->
+				</div>
+			</section>
+			
+			<section class="products" id="product">
+				<div class="container">
+					<div class="products__block">
+						<div class="products__text">
 							<div class="products__title">
 								Our Porular Product
 							</div>
@@ -79,211 +79,223 @@
 								Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 								Lorem Ipsum has been the industry's standard dummy
 							</div>
-						</div>		
-					
-						<div class="products__link">
-							<a class="products__descr" href="URL">
-								Discover Our Products
-							<img class="arrow__img" src="img/arrow.png">
-							
-							</a>
-						</div>
-					</div>
-
-					<div class="items">
-						<div class="items__product-1">
-							<img class="items__product-img" src="img/product-1.png">
-
-							<div class="items__product-titile">
-								Cosmetic products
-							</div>
-
-							<div class="items__product-subtitile">
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-								Lorem Ipsum has been the industry's standard dummy
-							</div>
-
-							<div class="items__product-buttons">
-								<button class="items__button-buy">Buy Now</button>
-								<button class="items__button-add">Add To Cart</button>
-								<span class="items__price">$120</span>
-							</div>
 						</div>
 
-						<div class="items__product-2">
-							<img class="items__product-img" src="img/product-2.png">
+						<div class="items">
+							<div class="items__product">
+								<div class="items__image">
+									<img src="img/product-1.png">
+								</div>
 
-							<div class="items__product-titile">
-								Cosmetic products
+								<div class="items__titile">
+									Cosmetic products
+								</div>
+
+								<div class="items__subtitile">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+									Lorem Ipsum has been the industry's standard dummy
+								</div>
+
+								<div class="items__buttons">
+									<button class="items__button-buy">Buy Now</button>
+									<span class="items__price">$120</span>
+								</div>
 							</div>
 
-							<div class="items__product-subtitile">
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-								Lorem Ipsum has been the industry's standard dummy
-							</div>
+							<div class="items__product">
+								<div class="items__image">
+									<img src="img/product-2.png">
+								</div>
 
-							<div class="items__product-buttons">
-								<button class="items__button-buy">Buy Now</button>
-								<button class="items__button-add">Add To Cart</button>
-								<span class="items__price">$120</span>
+								<div class="items__titile">
+									Cosmetic products
+								</div>
+
+								<div class="items__subtitile">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+									Lorem Ipsum has been the industry's standard dummy
+								</div>
+
+								<div class="items__buttons">
+									<button class="items__button-buy">Buy Now</button>
+									<span class="items__price">$120</span>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
 
-		<section class="rating">
-				<div class="rating__block">
-					<div class="rating__text">
-						<div class="rating__title">100%</div>
-						<img class="rating__line" src="img/line.png">
-						<h3 class="rating__subtitle">Organic Products</h3>
-					</div>
-				</div><!-- rating__block -->
-
-				<div class="rating__block">
-					<div class="rating__text">
-						<div class="rating__title">2M+</div>
-						<img class="rating__line" src="img/line.png">
-						<h3 class="rating__subtitle">Yearly Sales</h3>
-					</div>
-				</div><!-- rating__block -->
-
-				<div class="rating__block">
-					<div class="rating__text">
-						<div class="rating__title">1.9M+</div>
-						<img class="rating__line" src="img/line.png">
-						<h3 class="rating__subtitle">Happy Customar</h3>
-					</div>
-				</div><!-- rating__block -->
-		</section>
-
-		<section class="information">
-			<div class="container">
-				<div class="information__block">
-					<div class="information__text">
-						<div class="information__title">
-							The Perfect Beauty Of You
+			<section class="rating">
+					<div class="rating__block">
+						<div class="rating__text">
+							<div class="rating__title">100%</div>
+							<img class="rating__line" src="img/line.png">
+							<h3 class="rating__subtitle">Organic Products</h3>
 						</div>
+					</div><!-- rating__block -->
 
-						<div class="information__subtitle">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-							when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-							<p>
-							It has survived not only five centuries, but also the leap into electronic typesetting,
-							remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and 
-							typesetting industry.
-							</p>
+					<div class="rating__block">
+						<div class="rating__text">
+							<div class="rating__title">2M+</div>
+							<img class="rating__line" src="img/line.png">
+							<h3 class="rating__subtitle">Yearly Sales</h3>
 						</div>
-						
-						<button class="information__button">Shop Now</button>
-					</div>
+					</div><!-- rating__block -->
 
-					<div class="information__image">
-						<img class="information__product-img" src="img/product-3.png">
-					</div>
-				</div><!-- information__block -->
-			</div>
-		</section>
-
-		<section class="feedback">
-			<div class="container">
-				<div class="feedback__block">
-					<div class="feedback__image">
-						<img class="feedback__product-img" src="img/photo.png">
-					</div>
-
-					<div class="feedback__text">
-						<div class="feedback__title">
-							Amazing Cosmetic
+					<div class="rating__block">
+						<div class="rating__text">
+							<div class="rating__title">1.9M+</div>
+							<img class="rating__line" src="img/line.png">
+							<h3 class="rating__subtitle">Happy Customar</h3>
 						</div>
+					</div><!-- rating__block -->
+			</section>
 
-						<img class="feedback__star" src="img/feedback-star.png">
-						
-						<div class="feedback__subtitle">
-							<q>
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-							when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-							</q>
-						</div>
-						
-						<div class="feedback__author">
-							Rusmin Islam
-						</div>
-
-						<div class="feedback__profession">
-							Designer
-						</div>
-					</div>
-				</div><!-- feedback__block -->
-			</div>
-		</section>
-
-	<footer>
-		<section class="footer">
-			<div class="container">
-				<div class="footer__block">
-					<div class="footer__subscribe">
-						<div class="footer__title">
-							Subscribe to Get Our Letest News
-						</div>
-
-						<input class="footer__input" type="email" placeholder="Enter email">
-							<button class="footer__button">Subscribe</button>
-						</input>
-					</div>
-
-					<img class="footer__line-img" src="img/line2.png">
-
-					<div class="footer__info">
-						<div class="footer__content">
-							<div class="footer__text">
-								Dudeshape
+			<section class="information">
+				<div class="container">
+					<div class="information__block">
+						<div class="information__text">
+							<div class="information__title">
+								The Perfect Beauty Of You
 							</div>
-							<div class="footer__subtitle">
+
+							<div class="information__subtitle">
 								Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-								Lorem Ipsum has been the industry's standard dummy
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+								when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+								<p>
+								It has survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and 
+								typesetting industry.
+								</p>
 							</div>
-						</div>
-
-						<div class="footer__list">
-							<div class="footer__link">
-								Quick Link
 							
-								<ul>
-									<li>Home</li>
-									<li>Products</li>
-									<li>About Us</li>
-								</ul>
+							<div class="information__button present__button">
+								<button class="present__btn" alt="Кнопка заказа">Shope now</button>
 							</div>
 						</div>
 
-						<div class="footer__contacts">
-							<div class="footer__contact">
-								Contact Us
-							</div>
-						
-							<div class="footer__email">
-								oyasimnaeem@email.com
+						<div class="information__image">
+							<img class="information__product-img" src="img/product-3.png">
+						</div>
+					</div><!-- information__block -->
+				</div>
+			</section>
+
+			<section class="feedback" id="feedback">
+				<div class="container">
+					<div class="feedback__block">
+						<div class="feedback__image">
+							<img class="feedback__product-img" src="img/photo.png">
+						</div>
+
+						<div class="feedback__text">
+							<div class="feedback__title">
+								Amazing Cosmetic
 							</div>
 
-							<div class="footer__number">
-								+123456789
+							<img class="feedback__star" src="img/feedback-star.png">
+							
+							<div class="feedback__subtitle">
+								<q>
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+								when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+								</q>
+							</div>
+							
+							<div class="feedback__author">
+								Rusmin Islam
 							</div>
 
-							<div class="footer__network">
-								<img class="footer__facebook" src="img/facebook.png">
-								<img class="footer__twitter" src="img/twitter.png">
-								<img class="footer__instagram" src="img/instagram.png">
+							<div class="feedback__profession">
+								Designer
 							</div>
 						</div>
+					</div><!-- feedback__block -->
+				</div>
+			</section>
+			</main>
+		
+		
+			<footer class="footer">
+				<section class="footer" id="footer">
+					<div class="container">
+						<div class="footer__block">
+							<div class="footer__subscribe">
+								<div class="footer__title">
+									Subscribe to Get Our Letest News
+								</div>
+
+								
+								<input class="footer__input" type="email" placeholder="Enter email">
+									<button class="footer__button">Subscribe</button>
+								</input>
+								
+							</div>
+
+							<img class="footer__line-img" src="img/line2.png">
+
+							<div class="footer__info">
+								<div class="footer__content">
+									<div class="footer__text">
+										Dudeshape
+									</div>
+									<div class="footer__subtitle">
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+										Lorem Ipsum has been the industry's standard dummy
+									</div>
+								</div>
+
+								<div class="footer__contacts">
+									<div class="footer__contact">
+										Contact Us
+									</div>
+								
+									<div class="footer__email">
+										oyasimnaeem@email.com
+									</div>
+
+									<div class="footer__number">
+										+123456789
+									</div>
+
+									<div class="footer__network">
+										<img class="footer__facebook" src="img/facebook.png">
+										<img class="footer__twitter" src="img/twitter.png">
+										<img class="footer__instagram" src="img/instagram.png">
+									</div>
+								</div>
+							</div>
+						</div><!-- information__block -->
 					</div>
-				</div><!-- information__block -->
-			</div>
-		</section>
-	</footer>
+				</section>
+			</footer>
+		</div>
+
+	<div class="modal">
+		<div class="modal__block">
+			<button class="modal__close">✘</button>
+			<h2 class="modal__subtitle">Delivery and payment</h2>
+			<form action="">
+				<label class="modal__label">
+					<span class="modal__label-text">Adress</span>
+					<input class="modal__input" type="text">
+				</label>
+				<label class="modal__label">
+					<span class="modal__label-text">FIO</span>
+					<input class="modal__input" type="text">
+				</label>
+				<label class="modal__label">
+					<span class="modal__label-text">Telephone</span>
+					<input class="modal__input" type="text">
+				</label>
+				<button type="submit" class="button button_buy modal__submit">Order</button>
+			</form>
+		</div>
+	</div>
+
+	
 	</body>
 </html>

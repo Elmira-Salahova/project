@@ -1,6 +1,5 @@
 .catalog 
 	margin-top: 57px
-	width: 1600px
 
 .catalog-wrapper 
 	display: flex
@@ -8,34 +7,27 @@
 	align-items: center
 
 .catalog-block__title 
-	padding-left: 480.36px
-	font-family: Lato
 	font-size: 30px
 	line-height: 36px
 	color: #222222
 
 .catalog-block__subtitle 
-	padding-left: 401px
 	padding-top: 6px
 	padding-bottom: 18px
-	font-family: Lato
 	font-size: 14px
-	line-height: 17px
 	color: #9F9F9F
 
 .descr 
-	width: 360px
-	height: 581px
+	max-width: 360px
 	background: #F8F8F8
 	margin-top: 30px
 	margin-left: 15px 
  
 
-.catalog-descr__img 
+.catalog-descr__img
 	position: relative
-	width: 360px
-	height: 420px
-
+	max-width: 360px
+	
 	&:hover 
     transform: scale(1.025)
 
@@ -46,6 +38,12 @@
 
 	&:hover .catalog__img 
     filter: brightness(30%)
+
+.catalog-descr__img img
+	width: 100%
+
+.catalog__text
+	text-align: center;
 
 .basket__btn
 	opacity: 0
@@ -62,7 +60,6 @@
 	padding-top: 5.62px
 	padding-left: 13.5px
 
-
 .basket__cart-text
 	font-size: 14px
 	color: #FFFFFF
@@ -72,22 +69,19 @@
 
 .catalog-descr__title 
 	padding: 24.35px 192.89px 12.65px 18px
-	font-weight: 400
 	font-size: 17px
 	line-height: 16px
 	color: #000000
 
 .catalog-descr__subtitle 
+	min-height: 51px
 	padding-left: 16.46px
 	padding-right: 28.8px
-	font-weight: 300
 	color: #5D5D5D
-	height: 40px
 
 .catalog-descr__price 
 	padding-top: 18px
 	padding-left: 18.41px
-	font-family: Lato
 	font-size: 16px
 	line-height: 19px
 	color: #F16D7F
@@ -98,7 +92,6 @@
 	border: 1px solid #FF6A6A
 	background: transparent
 	margin: 48.5px 463.5px 0px 465.5px
-	font-family: Lato
 	font-size: 16px
 	line-height: 19px
 	color: #F26376
@@ -109,58 +102,40 @@
 
 
 .catalog__filter 
-	height: 17px
 	display: flex
 	justify-content: space-between
-	align-items: center
-	margin-bottom: 35px 
+	padding-bottom: 35px 
+	padding-left: 20px
 
 .catalog__filter-text 
-	font-family: Lato
 	font-weight: 600
 	font-size: 14px
 	line-height: 17px
 	color: #000000
 
-.catalog__filter-img 
-	width: 15px
-	height: 10px
-
 .catalog__filter-clothes 
-	width: 315.02px
-	height: 17px
 	margin-right: 431px
 
 .catalog__filter-trend 
-	width: 100px
-	height: 17px
 	font-size: 14px
 	line-height: 17px
 	color: #6F6E6E
 
 .catalog__filter-size 
-	width: 29px
-	height: 17px
-	font-family: Lato
 	font-size: 14px
 	line-height: 17px
 	color: #6F6E6E
 	margin-left: 27.93px
 
 .catalog__filter-price 
-	width: 39px
-	height: 17px
-	font-family: Lato
 	font-size: 14px
 	line-height: 17px
 	color: #6F6E6E
 	margin-left: 27.93px
 
 .catalog__img-arrow 
-	width: 10.02px
 	height: 5px
 	margin-left: 10px
 
 .product-wrapper 
 	padding-bottom: 128px
-
