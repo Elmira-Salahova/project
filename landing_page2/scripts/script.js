@@ -8,6 +8,7 @@ const modalWindow = () => {
     buttonBuy.forEach((e) => {
        e.addEventListener('click', () => {
            modal.classList.add('open');
+           document.body.style.overflow = "hidden"; 
         });
     });
 
@@ -15,6 +16,7 @@ const modalWindow = () => {
         const target = event.target;
         if (target.classList.contains('modal__close') || target === modal) {
             modal.classList.remove('open');
+            document.body.style.overflow = "";
         }
     });
 

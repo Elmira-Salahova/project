@@ -117,6 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const openModal = (event) => {
             const target = event.target;
             modal.classList.add('open');
+            document.body.style.overflow = "hidden"; 
             document.addEventListener('keydown', escapeHandler);
             modalTitle.textContent = cardDetailsTitle.textContent;
             modalSubtitle.textContent = target.dataset.buttonBuy;
@@ -125,6 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const closeModal = () => {
             modal.classList.remove('open');
             document.removeEventListener('keydown', escapeHandler);
+            document.body.style.overflow = ""; 
         };
 
         const escapeHandler = event => {
