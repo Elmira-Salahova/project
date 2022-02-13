@@ -21,12 +21,14 @@ const modalWindow = () => {
 };
 
 const scrollButton = () => {
-const scroll = document.querySelector('.present__btn');
- scroll.addEventListener('click',(element) => {
-        element = document.getElementById('product'),
-        element.scrollIntoView(true);
-     }
- )};
+    const scroll = document.querySelectorAll('.present__btn');
+    scroll.forEach((e) => {
+        e.addEventListener('click', element => {
+            element = document.getElementById('product'),
+            element.scrollIntoView(true);
+        });
+    });
+};
 
 modalWindow();
 scrollButton();

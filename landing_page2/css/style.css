@@ -363,7 +363,7 @@ html, body {
 
 .footer__info {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .footer__content {
@@ -389,7 +389,6 @@ html, body {
 
 
 .footer__contacts {
-    padding-left: 213px;
     padding-top: 84px;
 }
 

@@ -36,7 +36,13 @@
 		padding-top: 10px;
 		font-size: 15px;
 	}
-
+	.footer__title {
+		padding-right: 51px;
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 46px;
+		color: #222222;
+	}
 
 } 
 
@@ -187,6 +193,23 @@
 	.footer__email {
 		padding-top: 13px;
 	}
+
+	.footer__title {
+		padding-right: 91px;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 46px;
+		color: #222222;
+	}
+
+	.footer__button {
+		padding: 0 19px;
+		background: #402F2C;
+		color: #FFFFFF;
+		font-weight: 500;
+		font-size: 13px;
+	}	
+
 
 }
 
